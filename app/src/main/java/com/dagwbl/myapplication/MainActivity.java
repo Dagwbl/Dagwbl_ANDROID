@@ -36,15 +36,15 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.menu_feedBack:
                 //TODO
-//                intent = new Intent(MainActivity.this,MainActivity4.class);
-                intent.setData(Uri.parse("https://github.com/Dagwbl"));
-                Toast.makeText(MainActivity.this,"还没有写好呢",Toast.LENGTH_SHORT).show();
+                intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://github.com/Dagwbl/Dagwbl_ANDROID/issues"));
+                startActivity(intent);
                 break;
             case R.id.menu_about:
                 //TODO
 //                intent = intent = new Intent(MainActivity.this,MainActivity4.class);
                     intent = new Intent(Intent.ACTION_VIEW);
-                    intent.setData(Uri.parse("https://github.com/Dagwbl"));
+                    intent.setData(Uri.parse("https://github.com/Dagwbl/Dagwbl_ANDROID"));
                     startActivity(intent);
                 break;
             case R.id.menu_exit:
