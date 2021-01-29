@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:keepScreenOn="true"
+    android:gravity="center"
+    tools:context=".TimeScreenActivity">
+
+<!--    <TextView-->
+<!--        android:id="@+id/editTextTime"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="天气真好"-->
+<!--        android:textSize="150sp"-->
+<!--        android:textColor="#BAFFFFFF"-->
+<!--        android:ems="10"-->
+<!--        android:maxLines="1"-->
+<!--        android:gravity="center" />-->
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:keepScreenOn="true"
+        android:format12Hour="hh:mm:ss"
+        android:format24Hour="HH:mm:ss"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="150sp"
+        />
+</RelativeLayout>

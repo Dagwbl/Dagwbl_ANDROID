@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity3"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/editTextNumber_result"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Lucky"
+        android:textColor="@color/black"
+        android:layout_margin="50dp"
+        android:textSize="75sp" />
+
+    <LinearLayout
+        android:id="@+id/layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editTextNumber_min"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="最小值"
+            android:gravity="center"
+            android:layout_margin="12dp"
+            android:textSize="23sp"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/editTextNumber_max"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="12dp"
+            android:textSize="23sp"
+            android:hint="最大值"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/generate_button"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_height="81dp"
+        android:textSize="23sp"
+        android:text="生成随机数" />
+
+</LinearLayout>

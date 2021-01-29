@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/func1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="50dp"
+            android:textSize="50sp"
+            android:background="#E66767"
+            android:text="手动计数器" />
+        <Button
+            android:id="@+id/func2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:layout_marginHorizontal="50dp"
+            android:text="随机数生成" />
+        <Button
+            android:id="@+id/func3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:layout_marginHorizontal="50dp"
+            android:text="大话骰" />
+<!--        <Button-->
+<!--            android:id="@+id/func4"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="50sp"-->
+<!--            android:layout_marginHorizontal="50dp"-->
+<!--            android:text="登录测试" />-->
+        <Button
+            android:id="@+id/func5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:layout_marginHorizontal="50dp"
+            android:text="时间屏幕" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

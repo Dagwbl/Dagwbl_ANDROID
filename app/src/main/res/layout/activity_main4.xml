@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity4"
+    tools:ignore="ExtraText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="100dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/dice1"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:text="*"
+            android:textSize="45sp"
+            android:gravity="center"
+            android:background="#00BCD4"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:padding="45dp"/>
+        <TextView
+            android:id="@+id/dice2"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:text="*"
+            android:gravity="center"
+            android:textSize="45sp"
+            android:background="#00BCD4"
+            android:padding="45dp"
+            android:layout_margin="30dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/dice3"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:text="*"
+            android:textSize="45sp"
+            android:gravity="center"
+            android:background="#DAF47F25"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="45dp"/>
+        <TextView
+            android:id="@+id/dice4"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:text="*"
+            android:gravity="center"
+            android:textSize="45sp"
+            android:background="#DAF47F25"
+            android:padding="45dp"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/dice5"
+            android:layout_width="0sp"
+            android:layout_weight="1"
+            android:text="*"
+            android:textSize="45sp"
+            android:gravity="center"
+            android:background="#DAF47F25"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="45dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:id="@+id/shakeDice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="55sp"
+        android:text="Lucky" />
+    <Button
+        android:id="@+id/openButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="55sp"
+        android:text="起" />
+
+
+
+
+</LinearLayout>
