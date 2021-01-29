@@ -16,28 +16,26 @@
         android:paddingTop="100dp"
         android:gravity="center">
 
-        <TextView
+        <ImageView
             android:id="@+id/dice1"
-            android:layout_width="0sp"
-            android:layout_weight="1"
-            android:text="*"
+            android:layout_width="75dp"
+            android:src="@drawable/dice"
+            android:scaleType="center"
             android:textSize="45sp"
             android:gravity="center"
-            android:background="#00BCD4"
-            android:layout_height="wrap_content"
-            android:layout_margin="30dp"
-            android:padding="45dp"/>
-        <TextView
+
+            android:layout_height="75dp"
+            android:layout_margin="5dp"/>
+        <ImageView
             android:id="@+id/dice2"
-            android:layout_width="0sp"
-            android:layout_weight="1"
-            android:text="*"
-            android:gravity="center"
+            android:layout_width="75dp"
+            android:src="@drawable/dice"
+            android:scaleType="center"
             android:textSize="45sp"
-            android:background="#00BCD4"
-            android:padding="45dp"
-            android:layout_margin="30dp"
-            android:layout_height="wrap_content" />
+            android:gravity="center"
+
+            android:layout_height="75dp"
+            android:layout_margin="5dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,39 +43,33 @@
         android:orientation="horizontal"
         android:gravity="center">
 
-        <TextView
+        <ImageView
             android:id="@+id/dice3"
-            android:layout_width="0sp"
-            android:layout_weight="1"
-            android:text="*"
+            android:layout_width="75dp"
+            android:src="@drawable/dice"
+            android:scaleType="center"
             android:textSize="45sp"
             android:gravity="center"
-            android:background="#DAF47F25"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:padding="45dp"/>
-        <TextView
+
+            android:layout_height="75dp"
+            android:layout_margin="5dp" />
+        <ImageView
             android:id="@+id/dice4"
-            android:layout_width="0sp"
-            android:layout_weight="1"
-            android:text="*"
+            android:layout_width="75dp"
+            android:src="@drawable/dice"
             android:gravity="center"
-            android:textSize="45sp"
-            android:background="#DAF47F25"
-            android:padding="45dp"
+
             android:layout_margin="5dp"
-            android:layout_height="wrap_content" />
-        <TextView
+            android:layout_height="75dp"
+            android:scaleType="center"/>
+        <ImageView
             android:id="@+id/dice5"
-            android:layout_width="0sp"
-            android:layout_weight="1"
-            android:text="*"
-            android:textSize="45sp"
+            android:layout_width="75dp"
+            android:src="@drawable/dice"
             android:gravity="center"
-            android:background="#DAF47F25"
-            android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:padding="45dp"/>
+            android:layout_height="75dp"
+            android:scaleType="center"/>
     </LinearLayout>
 
     <View

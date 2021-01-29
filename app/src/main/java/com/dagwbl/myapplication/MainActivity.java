@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
-        Intent intent = null;
+        Intent intent;
         switch (item.getItemId()){
             case R.id.menu_userLogin:
                 intent = new Intent(MainActivity.this,LoginActivity.class);
