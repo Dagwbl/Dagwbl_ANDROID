@@ -3,4 +3,5 @@
     <string name="page_1_name">手动计数器</string>
     <string name="page_2_name">随机数生成</string>
     <string name="page_3_name">大话骰</string>
+    <string name="update">更新</string>
 </resources>

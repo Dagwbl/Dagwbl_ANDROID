@@ -20,8 +20,8 @@ android {
         applicationId "com.dagwbl.myapplication"
         minSdkVersion 24
         targetSdkVersion 30
-        versionCode 23
-        versionName "2.3"
+        versionCode 25
+        versionName "0.2.3"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

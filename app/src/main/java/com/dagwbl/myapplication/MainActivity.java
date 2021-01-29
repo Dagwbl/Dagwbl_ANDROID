@@ -40,6 +40,12 @@ public class MainActivity extends AppCompatActivity {
                 intent.setData(Uri.parse("https://github.com/Dagwbl/Dagwbl_ANDROID/issues"));
                 startActivity(intent);
                 break;
+            case R.id.menu_update:
+                //TODO
+                intent = new Intent(Intent.ACTION_VIEW);
+                intent.setData(Uri.parse("https://github.com/Dagwbl/Dagwbl_ANDROID/releases"));
+                startActivity(intent);
+                break;
             case R.id.menu_about:
                 //TODO
 //                intent = intent = new Intent(MainActivity.this,MainActivity4.class);
